@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Convert AMD code to standard JavaScript with gobble and AMDClean",
   "author": "Rich Harris",
+  "license": "MIT",
+  "repository": "https://github.com/gobblejs/gobble-amdclean",
   "keywords": [
     "gobble"
   ],
@@ -11,5 +13,9 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "gobble": "^0.6.0",
+    "gobble-test": "^0.1.0"
+  }
 }
