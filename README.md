@@ -21,21 +21,6 @@ module.exports = gobble( 'requirejs-output' ).map( 'amdclean', amdCleanOptions )
 
 The AMDClean options are as per the [documentation](https://github.com/gfranko/amdclean#options) (the `code` property will be overwritten by gobble).
 
-## Source code
-
-```js
-module.exports = amdclean;
-
-function amdclean ( code, options ) {
-  options.code = code;
-  return require( 'amdclean' ).clean( options );
-}
-
-amdclean.defaults = {
-  accept: '.js'
-};
-```
-
 
 ## License
 
